@@ -1,0 +1,44 @@
+{
+  "name": "explore-angular2",
+  "version": "1.0.0",
+  "description": "A simple application for exploring angular2",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "tsc": "tsc -p source -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SonofNun15/explore-angular2.git"
+  },
+  "keywords": [
+    "angular2",
+    "demonstration",
+    "explore",
+    "playground"
+  ],
+  "author": "Josh Graber",
+  "contributors": [
+    {
+      "name": "Sam Graber",
+      "email": "sgraber@renovo1.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SonofNun15/explore-angular2/issues"
+  },
+  "homepage": "https://github.com/SonofNun15/explore-angular2",
+  "dependencies": {
+    "angular": "^1.4.7",
+    "angular-animate": "^1.4.7",
+    "angular-aria": "^1.4.7",
+    "angular-material": "^0.11.4",
+    "angular2": "^2.0.0-alpha.44",
+    "lodash": "^3.10.1",
+    "systemjs": "^0.19.4"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "typescript": "^1.6.2"
+  }
+}

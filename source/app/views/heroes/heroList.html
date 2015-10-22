@@ -1,0 +1,6 @@
+<ul class="heroes">
+    <hero-item *ng-for="#hero of heroes" (select)="onSelect(hero)"
+               [hero]="hero" [selected]="hero === selectedHero">
+    </hero-item>
+</ul>
+<router-outlet></router-outlet>
